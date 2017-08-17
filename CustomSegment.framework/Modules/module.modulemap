@@ -1,0 +1,10 @@
+framework module CustomSegment {
+  umbrella header "CustomSegment.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomSegment.Swift {
+    header "CustomSegment-Swift.h"
+}

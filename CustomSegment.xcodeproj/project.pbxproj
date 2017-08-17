@@ -10,6 +10,20 @@
 		2DAFDA2E1EC1856000FA3E46 /* CustomSegment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAFDA241EC1856000FA3E46 /* CustomSegment.framework */; };
 		2DAFDA331EC1856000FA3E46 /* CustomSegmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFDA321EC1856000FA3E46 /* CustomSegmentTests.swift */; };
 		2DAFDA351EC1856000FA3E46 /* CustomSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAFDA271EC1856000FA3E46 /* CustomSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DAFDA451EC186E300FA3E46 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFDA3E1EC186E300FA3E46 /* CAPSPageMenu.swift */; };
+		2DAFDA461EC186E300FA3E46 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFDA3F1EC186E300FA3E46 /* CAPSPageMenu+Options.swift */; };
+		2DAFDA471EC186E300FA3E46 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFDA401EC186E300FA3E46 /* CAPSPageMenu+UIConfiguration.swift */; };
+		2DAFDA481EC186E300FA3E46 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFDA411EC186E300FA3E46 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		2DAFDA491EC186E300FA3E46 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFDA421EC186E300FA3E46 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		2DAFDA4A1EC186E300FA3E46 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFDA431EC186E300FA3E46 /* CAPSPageMenuConfiguration.swift */; };
+		2DAFDA4B1EC186E300FA3E46 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFDA441EC186E300FA3E46 /* MenuItemView.swift */; };
+		2DAFDA4C1EC1875D00FA3E46 /* CAPSPageMenu.swift in Headers */ = {isa = PBXBuildFile; fileRef = 2DAFDA3E1EC186E300FA3E46 /* CAPSPageMenu.swift */; };
+		2DAFDA4D1EC1876000FA3E46 /* CAPSPageMenu+Options.swift in Headers */ = {isa = PBXBuildFile; fileRef = 2DAFDA3F1EC186E300FA3E46 /* CAPSPageMenu+Options.swift */; };
+		2DAFDA4E1EC1876200FA3E46 /* CAPSPageMenu+UIConfiguration.swift in Headers */ = {isa = PBXBuildFile; fileRef = 2DAFDA401EC186E300FA3E46 /* CAPSPageMenu+UIConfiguration.swift */; };
+		2DAFDA4F1EC1876800FA3E46 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Headers */ = {isa = PBXBuildFile; fileRef = 2DAFDA411EC186E300FA3E46 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		2DAFDA501EC1876F00FA3E46 /* CAPSPageMenu+UIScrollViewDelegate.swift in Headers */ = {isa = PBXBuildFile; fileRef = 2DAFDA421EC186E300FA3E46 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		2DAFDA511EC1876F00FA3E46 /* CAPSPageMenuConfiguration.swift in Headers */ = {isa = PBXBuildFile; fileRef = 2DAFDA431EC186E300FA3E46 /* CAPSPageMenuConfiguration.swift */; };
+		2DAFDA521EC1876F00FA3E46 /* MenuItemView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 2DAFDA441EC186E300FA3E46 /* MenuItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +43,13 @@
 		2DAFDA2D1EC1856000FA3E46 /* CustomSegmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSegmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAFDA321EC1856000FA3E46 /* CustomSegmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentTests.swift; sourceTree = "<group>"; };
 		2DAFDA341EC1856000FA3E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DAFDA3E1EC186E300FA3E46 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		2DAFDA3F1EC186E300FA3E46 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
+		2DAFDA401EC186E300FA3E46 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
+		2DAFDA411EC186E300FA3E46 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		2DAFDA421EC186E300FA3E46 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		2DAFDA431EC186E300FA3E46 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
+		2DAFDA441EC186E300FA3E46 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +93,13 @@
 			isa = PBXGroup;
 			children = (
 				2DAFDA271EC1856000FA3E46 /* CustomSegment.h */,
+				2DAFDA3E1EC186E300FA3E46 /* CAPSPageMenu.swift */,
+				2DAFDA3F1EC186E300FA3E46 /* CAPSPageMenu+Options.swift */,
+				2DAFDA401EC186E300FA3E46 /* CAPSPageMenu+UIConfiguration.swift */,
+				2DAFDA411EC186E300FA3E46 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				2DAFDA421EC186E300FA3E46 /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				2DAFDA431EC186E300FA3E46 /* CAPSPageMenuConfiguration.swift */,
+				2DAFDA441EC186E300FA3E46 /* MenuItemView.swift */,
 				2DAFDA281EC1856000FA3E46 /* Info.plist */,
 			);
 			path = CustomSegment;
@@ -94,6 +122,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DAFDA351EC1856000FA3E46 /* CustomSegment.h in Headers */,
+				2DAFDA501EC1876F00FA3E46 /* CAPSPageMenu+UIScrollViewDelegate.swift in Headers */,
+				2DAFDA511EC1876F00FA3E46 /* CAPSPageMenuConfiguration.swift in Headers */,
+				2DAFDA521EC1876F00FA3E46 /* MenuItemView.swift in Headers */,
+				2DAFDA4F1EC1876800FA3E46 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Headers */,
+				2DAFDA4E1EC1876200FA3E46 /* CAPSPageMenu+UIConfiguration.swift in Headers */,
+				2DAFDA4C1EC1875D00FA3E46 /* CAPSPageMenu.swift in Headers */,
+				2DAFDA4D1EC1876000FA3E46 /* CAPSPageMenu+Options.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +183,8 @@
 				TargetAttributes = {
 					2DAFDA231EC1856000FA3E46 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 6QWM3MF4JE;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
 					};
 					2DAFDA2C1EC1856000FA3E46 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -198,6 +233,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAFDA451EC186E300FA3E46 /* CAPSPageMenu.swift in Sources */,
+				2DAFDA481EC186E300FA3E46 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
+				2DAFDA471EC186E300FA3E46 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				2DAFDA491EC186E300FA3E46 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
+				2DAFDA4B1EC186E300FA3E46 /* MenuItemView.swift in Sources */,
+				2DAFDA461EC186E300FA3E46 /* CAPSPageMenu+Options.swift in Sources */,
+				2DAFDA4A1EC186E300FA3E46 /* CAPSPageMenuConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,18 +364,22 @@
 		2DAFDA391EC1856000FA3E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 6QWM3MF4JE;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CustomSegment/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomSegment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,17 +387,20 @@
 		2DAFDA3A1EC1856000FA3E46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 6QWM3MF4JE;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CustomSegment/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomSegment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -360,6 +409,8 @@
 		2DAFDA3C1EC1856000FA3E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6QWM3MF4JE;
 				INFOPLIST_FILE = CustomSegmentTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +423,8 @@
 		2DAFDA3D1EC1856000FA3E46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6QWM3MF4JE;
 				INFOPLIST_FILE = CustomSegmentTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +453,7 @@
 				2DAFDA3A1EC1856000FA3E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DAFDA3B1EC1856000FA3E46 /* Build configuration list for PBXNativeTarget "CustomSegmentTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +462,7 @@
 				2DAFDA3D1EC1856000FA3E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
